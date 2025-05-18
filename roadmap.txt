@@ -1,0 +1,15 @@
+HTML☑️
+JAVA
+CSS
+Java Script
+Android Development
+Node.js
+ANGULAR
+TAILWIND CSS
+PHP
+PYTHON
+DJANGO/FLASK
+C
+C++
+DSA
+
