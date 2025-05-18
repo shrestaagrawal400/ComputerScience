@@ -18,15 +18,15 @@ public static void main(String[] args) {
         }
     }
     System.out.println("Enter the mobile numbers of 10 people:");
-    int Numbers[]= new int[10];
+    long Numbers[] = new long[10];
     for (int i = 0; i < Numbers.length; i++) {
-        Numbers[i] = sc.nextInt();
+        Numbers[i] = sc.nextLong();
     }
     //numbers in ascending order
     for (int i = 0; i < Numbers.length; i++) {
         for (int j = i + 1; j < Numbers.length; j++) {
             if (Numbers[i] > Numbers[j]) {
-                int temp = Numbers[i];
+                long temp = Numbers[i];
                 Numbers[i] = Numbers[j];
                 Numbers[j] = temp;
             }
