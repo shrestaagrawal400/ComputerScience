@@ -10,11 +10,10 @@ public class prg8 {
         }
         System.out.print("Enter the element to be searched: ");
         int key = sc.nextInt();
-        int j;
         boolean found = false;
             // Check if the key is present in the array
         // If the key is found, set found to true
-        for (j = 0; j < Ar.length; j++) {
+        for (int j = 0; j < Ar.length; j++) {
             if (Ar[j] == key) {
                 found = true;
                 break;
