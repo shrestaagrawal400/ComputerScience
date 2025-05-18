@@ -14,7 +14,7 @@ public class prg8 {
             // Check if the key is present in the array
         // If the key is found, set found to true
         for (int j = 0; j < Ar.length; j++) 
-        {
+    {
             if (Ar[j] == key) {
                 found = true;
                 break;
