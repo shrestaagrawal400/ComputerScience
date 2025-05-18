@@ -4,7 +4,7 @@ public class prg10 {
         Scanner sc = new Scanner(System.in);
         int ar[] = new int[100];
         System.out.println("Enter the elements of the array");
-        for (int i = 0; i < ar.length; i++) {
+        for (int i=0; i<100;i++) {
             ar[i] = sc.nextInt();
         }
         // Unsorted array
