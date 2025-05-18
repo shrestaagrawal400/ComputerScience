@@ -33,11 +33,17 @@ public static void main(String[] args) {
         }
     }
     //displaying names and numbers
-    System.out.println("Names and numbers in alphabetical order:");
+    System.out.println("Names in alphabetical order:");
     for (int i = 0; i < Names.length; i++) {
-        System.out.println(Names[i] + " " + Numbers[i]);
+        System.out.println(Names[i] + " ");
+        
     }
-    
+    System.out.println("Numbers in ascending order:");
+    for (int i = 0; i < Numbers.length; i++) {
+        System.out.println(Numbers[i] + " ");
+        
+    }
+    sc.close();
     
 }    
 }
