@@ -45,6 +45,7 @@ public class prg6{
         }
         if(!found){
             System.out.println("Element not found");
+            sc.close();
         }
     }
 }

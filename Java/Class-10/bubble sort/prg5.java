@@ -27,5 +27,6 @@ public class prg5 {
         for (int o = 0; o < 5; o++) {
             System.out.print(Ar[o] + " ");}
         System.out.println();
+         sc.close();
             }
         }        

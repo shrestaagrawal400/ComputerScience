@@ -28,6 +28,6 @@ public class prg4{
         System.out.println("No of B's: "+B);
         System.out.println("No of C's: "+C);
         System.out.println("No of D's: "+D);
-
+ sc.close();
     }
 }
