@@ -8,14 +8,10 @@ public class prg5 {
         int Ar[] = new int[5];
         for(int x=0;x<5;x++){
         Ar[x]=sc.nextInt();
-        }
-
-       
+        }       
         System.out.println("Array before sorting:");
         for (int a = 0; a < 5; a++) {
-            System.out.print(Ar[a] + " ");}
-            
-        
+            System.out.print(Ar[a] + " ");}                 
         int temp;
         for(int i=4;i>=1;i--){
             for(int j=0;j<i;j++){
@@ -31,7 +27,5 @@ public class prg5 {
         for (int o = 0; o < 5; o++) {
             System.out.print(Ar[o] + " ");}
         System.out.println();
-
             }
-        }
-        
+        }        
