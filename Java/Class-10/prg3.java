@@ -1,4 +1,4 @@
-class main{
+class Prg3 {
     public static void main(String[] args) {
 int ii=0;
 int yy=4;
