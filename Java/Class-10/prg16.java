@@ -8,13 +8,12 @@ public class prg16 {
             Arr[i] = sc.next().charAt(0);
         }
         char[] Brr= new char[50];
-        for (int i = 50;i < 0; i--) {
-         char temp = Arr[i];
-            Brr[50 - i - 1] = temp; // Reverse the array
+        for (int i = 0; i < 50; i++) {
+            Brr[i] = Arr[49 - i];
         }
         int vowelCount = 0;
         for (int i = 0; i < 50; i++) {
-            char ch = Brr[i];
+            char ch = Arr[i];
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
                 ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
                 vowelCount++;
