@@ -1,5 +1,5 @@
 public class cwh27 {
- public static void main(String[] args) {
+  public static void main(String[] args) {
   int [] [] flats;
   flats=new int[2][3];
     flats[0][0]=101;
@@ -8,6 +8,6 @@ public class cwh27 {
     flats[1][0]=201;
     flats[1][1]=202;
     flats[1][2]=203;
-    
+
 }   
 }
