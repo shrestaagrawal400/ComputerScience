@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class prg18 {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         int Ar[] = new int[1];
         int search=2010;
@@ -13,12 +14,12 @@ public class prg18 {
             if (Ar[i] == search) {
                 found = true;
                 break;
-            }}
+            }
+        }
             if (found) {
                 System.out.println("Record exists");}
                 else{
-                System.out.println("Record does not exist");
-                    }
-
+                System.out.println("Record does not exist");}
+                System.out.println("End of program");
+            }
         }
-    }
