@@ -12,8 +12,9 @@ public class prg14 {
             if (Mks[i] >= 5.0)
             {
                 x++;
+                System.out.println("Student " + (i + 1) + " is tall enough.");
             }
         }
         System.out.println("Number of students with  minimum height of 5.0 feet: " + x);
-    }
+    } 
 }
