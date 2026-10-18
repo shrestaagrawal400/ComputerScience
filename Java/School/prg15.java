@@ -10,7 +10,7 @@ public class prg15 {
         // Bubble sort in descending order
         for (int i = 0; i < 14; i++) {
             for (int j = 0; j < 14 - i; j++) {
-                if (Price[j] < Price[j + 1]) { // Changed > to <
+                if (Price[j] < Price[j + 1]) {
                     double temp = Price[j];
                     Price[j] = Price[j + 1];
                     Price[j + 1] = temp;

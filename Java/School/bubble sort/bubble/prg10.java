@@ -48,7 +48,7 @@ public class prg10 {
         }
         System.out.println();
     sc.close();
-} 
+}
 }
 
 
