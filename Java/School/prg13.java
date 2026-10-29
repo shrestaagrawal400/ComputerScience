@@ -9,7 +9,7 @@ public class prg13{
         }
         double max = Mks[0];
         double min = Mks[0];
-        double sum = 0;
+        double sum = 0.0;
         for(int i=0; i<10; i++){
             if(Mks[i] > max){
                 max = Mks[i];
