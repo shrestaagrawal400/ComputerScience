@@ -11,7 +11,7 @@ Scanner sc = new Scanner(System.in);
 FileWriter fw = new FileWriter("Data.txt");
 BufferedWriter bw = new BufferedWriter(fw);
 PrintWriter pw = new PrintWriter(bw);
-System.out.println("Enter total number of senetnces you want to store");
+System.out.println("Enter total number of sentences you want to store");
 int N = sc.nextInt(); //input through Scanner
 for(int i = 1; i <= N ; i++)
 {
