@@ -1,5 +1,5 @@
 import java.util.*;
-public class prg28
+    public class prg28
 {
     public static void main(String args[])
     {
