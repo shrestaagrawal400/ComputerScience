@@ -8,6 +8,12 @@ public class prg14 {
             Mks[i] = sc.nextFloat();
         }
         int x=0;
+        for(int i = 0; i < 20; i++) {
+            if (Mks[i] < 5.0)
+            {
+                System.out.println("Student " + (i + 1) + " is not tall enough.");
+            }
+        }
         for (int i = 0; i < 20; i++) {
             if (Mks[i] >= 5.0)
             {
